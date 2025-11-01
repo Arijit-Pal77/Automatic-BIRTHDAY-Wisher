@@ -7,7 +7,7 @@ import os
 # --- IMPORTANT: SET YOUR FULL PATHS HERE ---
 # Use \\ for backslashes if on Windows
 # Example: "C:\\Users\\YourName\\Desktop\\MyProject\\birthdays.json"
-JSON_FILE_PATH = "D:\\Coding\\Python\\AI\\BIRTHDAY\\birthdays.json"
+JSON_FILE_PATH = "C:\\Users\\YourName\\Desktop\\MyProject\\birthdays.json"
 # ----------------------------------------------
 
 def load_contacts():
@@ -103,4 +103,5 @@ if __name__ == "__main__":
     if contacts_list:
         check_birthdays_and_send_messages(contacts_list)
     else:
+
         print("No contacts found in 'birthdays.json'. Exiting.")
